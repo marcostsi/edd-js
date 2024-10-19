@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Adivinhação de Palavras</title>
+</head>
+<body>
+    <h1>Jogo de Adivinhação de Palavras</h1>
+    <form id="meuformulario">
+        <label for="palpite">Digite uma palavra de 5 letras:</label>
+        <input type="text" id="palpite" name="palpite" required maxlength="5" minlength="5">
+        <br><br>
+        
+        <button type="submit">Enviar Palpite</button>
+    </form>
+    
+    <h2 id="calculos"></h2>
+    <h3 id="tentativas">Tentativas: 0</h3>
+
+    <script src="script.js"></script>
+</body>
+</html>
